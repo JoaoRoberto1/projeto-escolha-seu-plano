@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #0c1014;
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: Poppins;
+}
+
+.main-title {
+    font-size: 62px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 46px 0;
+}
+
+.header {
+    display: flex;
+    background-color: #05080a;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 16px;
+    letter-spacing: 2px;
+}
+
+.menu-nav {
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    gap: 16px;
+}
+
+.menu-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    border: solid #640D6B 4px; 
+    border-radius: 5px;
+}
+
+.activated {
+    background-color: #640D6B;
+    border: solid #640D6B 4px;
+}
+
+.menu-nav a:hover {
+    background-color: #640D6B;
+    outline: solid #640D6B 2px;
+}
+
+.pricing {
+    display: flex;
+    gap: 16px;
+
+}
+
+.pricing-plan{
+    flex: 1;
+    background-color: #1f252c;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px -6px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.class-plan-title {
+    text-transform: uppercase;
+    border-bottom: 2px solid #640D6B;
+    margin-top: 0;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.princing-plan p {
+    margin-top: 0;
+}
+
+.pricing-plan-price {
+    font-size: 34px;
+}
+
+.pricing-plan-features {
+    margin: 0 0 35px;
+    color: #b5b5b5;
+    padding-left: 50px;
+    line-height: 1.8;
+    flex-grow: 1;
+}
+
+.pricing-plan-features li::marker {
+    color: #640D6B;
+}
+
+.pricing-plan-cta {
+    text-decoration: none;
+    color: white;
+    background-color: #640D6B;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 10px;
+    text-align: center;
+}
+
+.pricing-plan-cta:hover {
+    outline: 2px solid #640D6B;
+    background-color: transparent;
+    color: white;
+
+}
+
